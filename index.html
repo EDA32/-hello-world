@@ -31,7 +31,25 @@ p {
 img {
     width: 90%;
     max-width: 500px;
-    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(173,216,255,.6);
+
+    animation: moonGlow 4s ease-in-out infinite;
+}
+
+@keyframes moonGlow {
+
+    0% {
+        box-shadow: 0 0 20px rgba(173,216,255,.4);
+    }
+
+    50% {
+        box-shadow: 0 0 60px rgba(173,216,255,.8);
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(173,216,255,.4);
+    }
 }
 
 </style>
@@ -46,11 +64,36 @@ border-radius:20px;
 box-shadow:0 0 25px #8ec5ff;
 ">
 
-.quote{
-  max-width: 500px;
-  margin: 40px auto;
+img {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(173,216,255,.6);
+
+    animation: moonGlow 4s ease-in-out infinite;
 }
-    
+
+@keyframes moonGlow {
+
+    0% {
+        box-shadow: 0 0 20px rgba(173,216,255,.4);
+    }
+
+    50% {
+        box-shadow: 0 0 60px rgba(173,216,255,.8);
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(173,216,255,.4);
+    }
+}
+
+ .quote {
+    max-width: 500px;
+    margin: 40px auto;
+    line-height: 1.8;
+}
+
 <p class="quote">
 Ay her gece aynı yerde değildi,
 ama ben her gece gökyüzüne baktım.
